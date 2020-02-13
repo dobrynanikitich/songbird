@@ -1,3 +1,6 @@
+https://dobrynanikitich-songbirdapp.netlify.com/
+Check deploy version of my app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
