@@ -1,0 +1,60 @@
+.AnswerBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap;
+    }
+    .AnwerList {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 40%;
+        border: 1px solid gray;
+        border-radius: 10px;
+        height: fit-content;
+        background: #303030;
+        box-sizing: border-box;
+        border-radius: 10px;
+        @media screen and (max-width: 800px) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        li {
+            width: 100%;
+            min-height: 50px;
+            border-bottom: 1px solid gray;
+            border-radius: 10px;
+            padding: 3px 20px;
+            box-sizing: border-box;
+            font-size: 1.5em;
+            color: white;
+            &:hover {
+                cursor: pointer;
+                color: darkkhaki;
+            }
+        }
+    }
+    .BirdsInfoWrapper {
+        width: 55%;
+        display: flex;
+        padding: 10px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        padding: 20px 40px;
+        background: #303030;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 1px solid gray;
+        @media screen and (max-width: 800px) {
+            width: 100%;
+            justify-content: center;
+        }
+        p {
+            font-size: 1.5em;
+            color: white;
+            margin: 0;
+        }
+    }
+}

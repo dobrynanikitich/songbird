@@ -1,0 +1,21 @@
+.BirdImage {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.BirdsInfoAudio {
+    padding-left: 20px;
+    box-sizing: border-box;
+    p {
+        margin: 0;
+        font-size: 1.8em;
+        padding-bottom: 3px;
+        border-bottom: 1px solid gray;
+        color: white;
+    }
+}
+
+.BirdsDesc {
+    color: white;
+}
